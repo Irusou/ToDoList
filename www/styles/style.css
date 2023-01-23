@@ -1,3 +1,4 @@
 body {
-    background-color: rgb(29, 29, 29);
+    margin: 0 auto;
+    background: linear-gradient(to right, salmon, rgb(255, 174, 174));
 }

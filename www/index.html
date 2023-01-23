@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link src="./styles/style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
     <script src="./scripts/script.js"></script>
     <title>To Do List</title>
 </head>
 <body>
-    <form id="frm-todo">
-        <fieldset>
-            <label></label>
-            <input type="text" placeholder="Item to add"/>
-            <input type="button" value="Add"/>
-        </fieldset>
-    </form>
-    <div class="items-container">
-        <ul>
-
-        </ul>
+    <div class="form-container">
+        <form id="frm-todo">
+            <fieldset>
+                <label for="itemToAdd"> Item:</label>
+                <input id="itemToAdd"type="text"/>
+                <br />
+                <input type="button" id="btnAddItem" value="Add"/>
+                <input type="button" id="btnRemoveItem" value="Remove"/>
+            </fieldset>
+        </form>
+        <div class="items-container">
+            <h2>My List</h2>
+            <ul id="list">
+                <li>coke</li>
+                <li>booze</li>
+                <li>water</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
