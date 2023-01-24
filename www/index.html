@@ -5,20 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
-    <script src="./scripts/script.js"></script>
+    <script type="text/javascript" src="./scripts/script.js"></script>
     <title>To Do List</title>
 </head>
 <body>
-    <div class="form-container">
-        <form id="frm-todo">
-            <fieldset>
-                <label for="itemToAdd"> Item:</label>
-                <input id="itemToAdd"type="text"/>
-                <br />
-                <input type="button" id="btnAddItem" value="Add"/>
-                <input type="button" id="btnRemoveItem" value="Remove"/>
-            </fieldset>
-        </form>
+    <div class="todolist">
+        <div class="container">
+            <input id="itemToAdd" type="text"/>
+            <br />
+            <input type="button" id="btnAddItem" value="Add"/>
+            <input type="button" id="btnRemoveItem" value="Remove"/>
+        </div>
         <div class="items-container">
             <h2>My List</h2>
             <ul id="list">
