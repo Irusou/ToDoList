@@ -1,19 +1,37 @@
-body {
-    display: flex;
-    width: 80%;
-    padding-left: 35%;
-    padding-top: 15%;
-    align-content: center;
-    background: linear-gradient(to right, salmon, rgb(255, 174, 174));
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.todolist {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    width: 25%;
+.container {
+    width: 360px;
+}
 
-    padding: 10px;
-    border: 3px solid black;
-    border-radius: 10%;
+#itemToAdd {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#btnAddItem {
+    width: 49px;
+    height: 49px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#itemList {
+    margin-top: 25px;
+}
+
+.li-styling {
+    margin: 0;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 20px;
 }
